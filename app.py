@@ -42,9 +42,9 @@ def predict():
 
 def get_food_suggestions(prediction):
     if prediction == 1:
-        suggestions = "'Food Item 4', 'Food Item 5', 'Food Item 6'"
+        suggestions = "'Fruits', 'Vegetables', 'Brown Rice'"
     else:
-        suggestions = "'Food Item 1', 'Food Item 2', 'Food Item 3'"
+        suggestions = "'sugar candies', 'sugar items', 'sugar cane'"
 
     return suggestions
 
